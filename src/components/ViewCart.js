@@ -17,7 +17,7 @@ export const ViewCart = () => {
       {isCart.map((product) =>(
         <div className="cartContainer-product" key={product.id}>
         <div className="cartContainer-img">
-          <img src={product.image} alt="image"/>
+          <img src={product.image}/>
         </div>
         <div className="cartContainer-product-details">
           <h3>{product.name}</h3>
