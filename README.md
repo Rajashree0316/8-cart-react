@@ -1,4 +1,4 @@
-# Netlify - https://8foodcart-react.netlify.app/
+# Netlify - https://8cart-react.netlify.app/
 
 # Getting Started with Create React App
 
