@@ -1,3 +1,6 @@
+.container{
+    margin-top: 80px;
+}
 .cart-heading,.cartContainer-total{
     font-size: 20px;
     font-family: 600;

@@ -16,7 +16,7 @@ export const Header = () => {
             <li>
                 <Link to={"/Cart"}>
                   <span className="cart-count">{isCart.length}</span>
-                    VIEW CART</Link>
+                    CART</Link>
             </li>
         </ul>
 

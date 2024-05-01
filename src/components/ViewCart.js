@@ -11,7 +11,7 @@ export const ViewCart = () => {
     setTotal(isCart.reduce((acc,curr) => acc + parseInt(curr.price),0));
   },[isCart]);
   return (
-    <>
+    <div className="container">
     <h1 className="cart-heading">CART PRODUCTS</h1>
     <div className="cartContainer">
       {isCart.map((product) =>(
@@ -27,7 +27,7 @@ export const ViewCart = () => {
       ))}
     </div>
     <h2 className="cartContainer-total">Total Amount : Rs {total}</h2>
-    </>
+    </div>
   )
 }
 
